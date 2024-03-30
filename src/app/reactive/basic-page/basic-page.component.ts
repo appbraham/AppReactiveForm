@@ -52,9 +52,7 @@ export class BasicPageComponent implements OnInit {
           return `Mínimo ${ errors['minlength'].requiredLength } caracteres.`
       }
     }
-
     return null;
-
   }
 
   onSave(): void{
